@@ -15,6 +15,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-41-207.ap-south-1.compute.internal-releases</name>
+        <url>http://3.108.44.119:8082/artifactory/mvn-cut</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-41-207.ap-south-1.compute.internal-snapshots</name>
+        <url>http://3.108.44.119:8082/artifactory/mvn-cut</url>
+    </snapshotRepository>
+</distributionManagement>
   <build>
     <finalName>WebApp</finalName>
   </build>
